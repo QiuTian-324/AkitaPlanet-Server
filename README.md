@@ -169,9 +169,3 @@ AkitaPlanet-admin / AkitaPlanet-front 通用目录结构
 ### 移动端
 | ![移动端首页](./assets/images/mobileHome.jpg) | ![移动端文章详情](./assets/images/mobileArticleDetail.jpg) |
 |------------------------------------------|-----------------------------------------------------|
-
-
-## 项目运行
-
-### 拉取项目
-> git clone https://github.com/zhaoolee/vue3-vite-blog.git
