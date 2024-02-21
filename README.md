@@ -1,60 +1,75 @@
-## 项目介绍
+##  👨‍💻 项目作者：
+
+> 一位热爱技术、热爱挑战的程序员
+
+<p align=center>
+<a href="http://www.akita324.top">
+<img src="./assets/images/avatar.jpg"  width="200" hight="200" alt="Akita" style="border-radius: 50%">
+</a>
+</p>
+
+## 💻 项目介绍：
 
 > AkitaPlanet是一款极具创新性和前瞻性的全栈应用，旨在为用户提供无与伦比的在线体验。这个项目集成了最新、最先进的前端和后端技术，结合了强大的云服务和安全验证机制，为用户打造了一个安全、稳定、高效的全方位服务平台。
 
 ### 前端技术栈：
-
-在前端方面，我采用了 pnpm 作为包管理工具，借助 TypeScript 构建了可靠的前端应用。我选择了 Vue3 作为前端框架，结合 VueUse 和 Vue Composition API，实现了高效的组件开发和数据管理。为了更好地管理样式和提高页面加载速度，我引入了 Unocss 来实现原子化 CSS，使得样式的维护和调整变得更加便捷。Pinia 提供了可靠的状态管理，Vue Router 则负责实现页面导航，而 Axios 负责处理前后端的数据交互。为了打造出色的用户界面，我选择了 Naive UI 作为组件库，提供了丰富、美观的UI组件，让用户体验更加流畅和愉悦。
+在前端方面，我采用了 📦 pnpm 作为包管理工具，借助 📘 TypeScript 构建了可靠的前端应用。我选择了 ⚡ Vue3 作为前端框架，结合 🛠️ VueUse 和 Vue Composition API，实现了高效的组件开发和数据管理。为了更好地管理样式和提高页面加载速度，我引入了 🎨 Unocss 来实现原子化 CSS，使得样式的维护和调整变得更加便捷。Pinia 提供了可靠的状态管理，Vue Router 则负责实现页面导航，而 🚀 Axios 负责处理前后端的数据交互。为了打造出色的用户界面，我选择了 🎨 Naive UI 作为组件库，提供了丰富、美观的UI组件，让用户体验更加流畅和愉悦。
 
 ### 后端技术栈：
+AkitaPlanet 这个项目采用了最先进的技术栈，旨在为用户提供卓越的博客阅读体验。借助 🚀 Golang 这门高性能的编程语言，我打造了一个高效、可靠的后端服务。
 
-AkitaPlanet这个项目采用了最先进的技术栈，旨在为用户提供卓越的博客阅读体验。借助 Golang 这门高性能的编程语言，我打造了一个高效、可靠的后端服务。
+在项目中，我充分利用了 📦 Gin 框架和 GORM ORM 框架的强大功能，结合 🐳 Docker 容器化技术，实现了业务逻辑的模块化和快速部署。使用 🚀 Viper 框架，我可以灵活地管理项目配置，随时调整系统参数，确保系统运行的高度灵活性和可配置性。
 
-在项目中，我充分利用了 Gin 框架和 GORM ORM 框架的强大功能，结合 Docker 容器化技术，实现了业务逻辑的模块化和快速部署。使用 Viper 框架，我可以灵活地管理项目配置，随时调整系统参数，确保系统运行的高度灵活性和可配置性。
+为了保障系统的安全性和权限管理，我引入了 🔒 Casbin 权限管理框架，有效地控制了用户的访问权限。同时，利用 📝 Zap 日志库，我实现了对系统运行情况的实时监控和记录，为系统的稳定运行提供了可靠的保障。
 
-为了保障系统的安全性和权限管理，我引入了 Casbin 权限管理框架，有效地控制了用户的访问权限。同时，利用 Zap 日志库，我实现了对系统运行情况的实时监控和记录，为系统的稳定运行提供了可靠的保障。
+作为后端数据存储和缓存的关键组件，我选择了 🗃️ MySQL 和 🔄 Redis 数据库。MySQL 提供了数据持久化存储的支持，而 Redis 则用于缓存系统的热点数据，进一步提升了系统的访问速度和响应性能。
 
-作为后端数据存储和缓存的关键组件，我选择了 MySQL 和 Redis 数据库。MySQL 提供了数据持久化存储的支持，而 Redis 则用于缓存系统的热点数据，进一步提升了系统的访问速度和响应性能。
-
-最后，为了优化前端资源的访问和加速网站加载速度，我利用 Nginx 服务器部署了静态资源，并实现了反向代理，极大地提升了用户的访问体验。
+最后，为了优化前端资源的访问和加速网站加载速度，我利用 🚀 Nginx 服务器部署了静态资源，并实现了反向代理，极大地提升了用户的访问体验。
 
 ### 其他技术和服务：
-
-除了前后端技术栈，我还集成了腾讯云人机验证、七牛云对象存储和腾讯邮箱等服务，为用户提供更全面的功能和更好的用户体验。通过这些技术和服务的整合，我将开发出一个高度现代化、安全可靠的全栈应用，为用户带来前所未有的在线体验和服务。
-
+除了前后端技术栈，我还集成了 🛡️ 腾讯云人机验证、📦 七牛云对象存储 和 📧 腾讯邮箱 等服务，为用户提供更全面的功能和更好的用户体验。通过这些技术和服务的整合，我将开发出一个高度现代化、安全可靠的全栈应用，为用户带来前所未有的在线体验和服务。
 
 <p align="center">
-   <a target="_blank" href="#">
-      <img style="display: inline-block;" src="https://img.shields.io/badge/Go-1.19-blue"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/Gin-v1.8.1-blue"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/Casbin-v2.56.0-blue"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/mysql-8.0-blue"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/GORM-v1.24.0-blue"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/redis-7.0-red"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/vue-v3.X-green"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/TypeScript-v4.5.2-blue"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/VueUse-v5.1.5-green"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/Unocss-v1.4.1-yellow"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/Pinia-v2.0.4-green"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/VueRouter-v4.0.12-green"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/Axios-v0.24.0-green"/>
-      <img style="display: inline-block;" src="https://img.shields.io/badge/NaiveUI-v3.10.0-blue"/>
-    </a>
+  <a target="_blank" href="#">
+    <img src="https://img.shields.io/badge/Go-1.19-blue" alt="Go version">
+    <img src="https://img.shields.io/badge/Gin-v1.8.1-blue" alt="Gin version">
+    <img src="https://img.shields.io/badge/Casbin-v2.56.0-blue" alt="Casbin version">
+    <img src="https://img.shields.io/badge/mysql-8.0-blue" alt="MySQL version">
+    <img src="https://img.shields.io/badge/GORM-v1.24.0-blue" alt="GORM version">
+    <img src="https://img.shields.io/badge/redis-7.0-red" alt="Redis version">
+    <br>
+    <img src="https://img.shields.io/badge/vue-v3.X-green" alt="Vue version">
+    <img src="https://img.shields.io/badge/TypeScript-v4.5.2-blue" alt="TypeScript version">
+    <img src="https://img.shields.io/badge/VueUse-v5.1.5-green" alt="VueUse version">
+    <img src="https://img.shields.io/badge/Unocss-v1.4.1-yellow" alt="Unocss version">
+    <img src="https://img.shields.io/badge/Pinia-v2.0.4-green" alt="Pinia version">
+    <img src="https://img.shields.io/badge/VueRouter-v4.0.12-green" alt="VueRouter version">
+    <img src="https://img.shields.io/badge/Axios-v0.24.0-green" alt="Axios version">
+    <img src="https://img.shields.io/badge/NaiveUI-v3.10.0-blue" alt="NaiveUI version">
+  </a>
 </p>
 
 
-## 在线预览
 
-在线接口文档地址：[AkitaPlanet-api](https://apifox.com/apidoc/shared-af22a508-fb18-4c9a-9fc0-32688bcbd277)，准备换成 Swagger
+## 🔍 在线预览：
 
-博客前台链接：[http://www.akita324.top](http://www.akita324.top)（已适配移动端）
+### 链接信息：
 
-博客后台链接：[http://www.akita324.top:81](http://www.akita324.top:81)（暂未专门适配移动端）
+| 名称       | 链接                                                                                       | 备注           |
+|----------|------------------------------------------------------------------------------------------|--------------|
+| 在线接口文档地址 | [AkitaPlanet-api](https://apifox.com/apidoc/shared-af22a508-fb18-4c9a-9fc0-32688bcbd277) | 准备换成 Swagger |
+| 博客前台链接   | [http://www.akita324.top](http://www.akita324.top)                                       | 已适配移动端       |
+| 博客后台链接   | [http://www.akita324.top:81](http://www.akita324.top:81)                                 | 暂未专门适配移动端    |
 
-测试账号：test@qq.com，密码：11111，前后台都可用这个账号登录
-admin账号：admin,密码：123456，前后台都可用这个账号登录
+### 账号和密码：
 
-## 项目特点
+| 类型      | 账号          | 密码     | 可用范围         |
+|---------|-------------|--------|--------------|
+| 测试账号    | test@qq.com | 11111  | 前后台都可用这个账号登录 |
+| admin账号 | admin       | 123456 | 前后台都可用这个账号登录 |
+
+
+## 💡 项目特点：
 
 ### 前台：
 
@@ -83,7 +98,7 @@ admin账号：admin,密码：123456，前后台都可用这个账号登录
 代码整洁层次清晰，采用了新颖的技术点和轻量级的代码结构，为开发者提供了学习和交流的优秀范本。
 Docker Compose 提供了一键运行的部署方案，使得搭建在线博客变得轻松快捷，为用户提供了更加便利的服务
 
-## 项目结构
+## 🧱 项目结构：
 
 ```
 AkitaPlanet-server
@@ -150,7 +165,7 @@ AkitaPlanet-admin / AkitaPlanet-front 通用目录结构
 ```
 
 
-## 项目截图
+## 📸 项目截图：
 ### 前台(PC端)
 ![前台首页](./assets/images/HomePage.jpg)
 
