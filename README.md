@@ -1,12 +1,14 @@
 ##  👨‍💻 项目作者：
 
-> 一位热爱技术、热爱挑战的程序员
 
-<p align=center>
-<a href="http://www.akita324.top">
-<img src="./assets/images/avatar.jpg"  width="200" hight="200" alt="Akita" style="border-radius: 50%">
-</a>
-</p>
+<div align="center">
+  <a href="http://www.akita324.top">
+    <img src="./assets/images/avatar.jpg" width="200" height="200" alt="Akita" style="border-radius: 50%;">
+  </a>
+</div>
+
+# <div align="center">Hello, I'm Akita!</div>
+## <div align="center">A tech enthusiast and a passionate programmer</div>
 
 ## 💻 项目介绍：
 
@@ -50,16 +52,15 @@ AkitaPlanet 这个项目采用了最先进的技术栈，旨在为用户提供�
 </p>
 
 
-
 ## 🔍 在线预览：
 
 ### 链接信息：
 
-| 名称       | 链接                                                                                       | 备注           |
-|----------|------------------------------------------------------------------------------------------|--------------|
-| 在线接口文档地址 | [AkitaPlanet-api](https://apifox.com/apidoc/shared-af22a508-fb18-4c9a-9fc0-32688bcbd277) | 准备换成 Swagger |
-| 博客前台链接   | [http://www.akita324.top](http://www.akita324.top)                                       | 已适配移动端       |
-| 博客后台链接   | [http://www.akita324.top:81](http://www.akita324.top:81)                                 | 暂未专门适配移动端    |
+| 名称       | 链接                                                                                       | 备注             |
+|----------|------------------------------------------------------------------------------------------|----------------|
+| 在线接口文档地址 | [AkitaPlanet-api](https://apifox.com/apidoc/shared-af22a508-fb18-4c9a-9fc0-32688bcbd277) | 后续准备换成 Swagger |
+| 博客前台链接   | [http://www.akita324.top](http://www.akita324.top)                                       | 已适配移动端         |
+| 博客后台链接   | [http://www.akita324.top:81](http://www.akita324.top:81)                                 | 暂未专门适配移动端      |
 
 ### 账号和密码：
 
