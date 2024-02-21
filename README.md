@@ -117,7 +117,22 @@ AkitaPlanet-admin / AkitaPlanet-front 通用目录结构
 ├── .env.production  -- 线上环境变量
 ├── .gitignore
 ├── .editorconfig    -- 编辑器配置
+├── .prettierrc       -- prettier 配置
+├── .stylelintrc     -- stylelint 配置
+├── README.md
+```
+
 
 ## 项目截图
-
+### PC端
 ![前台首页](./assets/images/HomePage.jpg)
+
+![文章详情页](./assets/images/ArticleDetails.jpg)
+
+![归档页](./assets/images/Archiving.jpg)
+
+![友链](./assets/images/FriendChain.jpg)
+
+### 移动端
+![移动端首页](./assets/images/mobileHome.jpg)
+![移动端文章详情](./assets/images/mobileArticleDetail.jpg)
