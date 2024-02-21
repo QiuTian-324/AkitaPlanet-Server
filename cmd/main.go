@@ -6,13 +6,19 @@ import (
 	g "gin-blog/internal/global"
 	"gin-blog/internal/middleware"
 	"log"
+	"os"
 	"strings"
 
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
-	configPath := flag.String("c", "D:\\AkitaCode\\cloneProject\\gin-vue-blog\\gin-blog-server\\config.yml", "配置文件路径")
+	path, err := os.Getwd()
+	if err != nil {
+		return
+	}
+	log.Printf("项目路径: %s", path)
+	configPath := flag.String("c", path+"../../config.yml", "配置文件路径")
 	flag.Parse()
 
 	// 根据命令行参数读取配置文件, 其他变量的初始化依赖于配置文件对象

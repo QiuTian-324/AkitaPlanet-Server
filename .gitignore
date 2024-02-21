@@ -20,3 +20,5 @@ config.yml
 config.toml
 *.log
 *.db
+assets/ip2region.xdb
+cmd/main

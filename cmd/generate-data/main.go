@@ -6,7 +6,9 @@ import (
 	g "gin-blog/internal/global"
 	"gin-blog/internal/model"
 	"gin-blog/internal/utils"
+	"log"
 	"log/slog"
+	"os"
 	"strings"
 	"time"
 
@@ -14,7 +16,14 @@ import (
 )
 
 func main() {
-	configPath := flag.String("c", "D:\\AkitaCode\\cloneProject\\gin-vue-blog\\gin-blog-server\\config.yml", "配置文件路径")
+
+	path, err := os.Getwd()
+	if err != nil {
+		return
+	}
+	log.Printf("项目路径: %s", path)
+
+	configPath := flag.String("c", path+"/config.yml", "配置文件路径")
 	typeName := flag.String("t", "all", "要初始化的数据类型: config | auth | page | all")
 	flag.Parse()
 

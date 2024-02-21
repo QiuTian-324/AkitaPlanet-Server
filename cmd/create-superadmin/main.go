@@ -18,7 +18,14 @@ import (
 func main() {
 	username := flag.String("username", "", "超级管理员账户")
 	password := flag.String("password", "", "超级管理员密码")
-	configPath := flag.String("c", "D:\\AkitaCode\\cloneProject\\gin-vue-blog\\gin-blog-server\\config.yml", "配置文件路径")
+
+	path, err := os.Getwd()
+	if err != nil {
+		return
+	}
+	log.Printf("项目路径: %s", path)
+
+	configPath := flag.String("c", path+"/config.yml", "配置文件路径")
 	flag.Parse()
 
 	// 根据命令行参数读取配置文件, 其他变量的初始化依赖于配置文件对象
